@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Header from './components/Header/Header'
 import StartPage from './components/StartPage/StartPage'
+import Form from './components/Form/Form'
 
 function App() {
   
@@ -11,6 +12,7 @@ function App() {
     <>
    <Header/>
   <StartPage/>
+  <Form/>
     </>
   )
 }
