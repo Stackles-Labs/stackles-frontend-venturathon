@@ -5,6 +5,7 @@ import './App.css'
 import Header from './components/Header/Header'
 import StartPage from './components/StartPage/StartPage'
 import Form from './components/Form/Form'
+import Footer from './components/Footer/Footer'
 
 function App() {
   
@@ -13,6 +14,7 @@ function App() {
    <Header/>
   <StartPage/>
   <Form/>
+  <Footer/>
     </>
   )
 }
