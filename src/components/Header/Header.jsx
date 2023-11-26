@@ -5,7 +5,7 @@ import { FaLinkedin ,FaDiscord,FaTwitter} from "react-icons/fa";
 function Header() {
   return (
     <div className='h-[60px] position-fixed border-b-2 border-black flex justify-between items-center'>
-     <div className='text-3xl font-semibold ml-[40px]'>Stackles</div>
+     <div className='text-4xl font-bold ml-[40px] text-purple-500'>Stackles</div>
      <div className='flex gap-10 text-2xl mr-[40px]'>
 
      <div>
