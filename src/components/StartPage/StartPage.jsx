@@ -1,4 +1,5 @@
 import React from 'react'
+import Form from '../Form/Form'
 
 function StartPage() {
   return (
@@ -15,7 +16,11 @@ function StartPage() {
       filling out the form below. By doing so, you'll be the first to <br/>
       know when we launch.</h1>
     
+     <div>
+      <Form/>
+     </div>
     </div>
+   
   )
 }
 
