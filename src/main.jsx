@@ -8,6 +8,7 @@ import Form from './components/Form/Form.jsx'
 import Layout from './components/Layout.jsx'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import StartPage from './components/StartPage/StartPage.jsx'
+import Platform from './components/Platform/Platform.jsx'
 
 const router=createBrowserRouter([
   {
@@ -18,10 +19,10 @@ const router=createBrowserRouter([
         path:"",
         element:<StartPage/>
       },
-      // {
-      //   path:"form",
-      //   element:<Form/>
-      // }
+      {
+        path:"platform",
+        element:<Platform/>
+      }
     ]
   }
 ])
